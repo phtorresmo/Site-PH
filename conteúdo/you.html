@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHWorld</title>
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="youpage.css">
+
+</head>
+<body>
+
+    <div id="container">
+         <!-- NAVEGAÇÃO -->
+        <header>
+            <img src="icones/favicon.ico" alt="Ícone" class="img">
+            <h1 id="titulo">Mundinho do PH</h1>
+            <nav id="navegacao">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="you.html">You</a>
+            </nav>
+        </header>
+        
+        <!-- INICIO FORMULÁRIO -->
+        <h2 id="subtitulo">fale sobre você!</h2>
+
+        <div id="forms">
+            <form>
+                <!-- Agrupador de campos -->
+                <fieldset class="name">
+
+                    <!-- NOME -->
+                    <div class="campo">
+                        <label for="nome"><strong>Nome</strong></label>
+                        <!-- required = torna o campo obrigatório -->
+                        <input type="text" id="nome" name="nome" required style="margin-right: 50px;">
+                    </div>
+
+                    <!-- APELIDO -->
+                    <div class="campo">
+                        <label for="apelido"><strong>Apelido</strong></label>
+                        <input type="text" id="apelido" name="apelido" required>
+                    </div>
+                </fieldset>
+
+                <!-- RADIO BUTTONS -->
+                <fieldset class="radio-buttons">
+                    <div class="campo">
+                        <label style="font-size: 19px;"><strong>Escolha uma cor: </strong></label>
+                        
+                        <label for="opcao01" class="legenda-opcao" style=" background-color: rgba(0, 0, 255, 0.329);">
+                            <input type="radio" name="options" id="opcao01" checked> Azul
+                        </label>
+                        <label for="opcao02" class="legenda-opcao" style="background-color: rgba(255, 166, 0, 0.432);">
+                            <input type="radio" name="options" id="opcao02"> Laranja
+                        </label>
+                        <label for="opcao03" class="legenda-opcao" style="background-color: rgba(0, 128, 0, 0.507);">
+                            <input type="radio" name="options" id="opcao03"> Verde
+                        </label>
+                        <label for="opcao04" class="legenda-opcao" style="background-color: rgba(255, 0, 0, 0.5);">
+                            <input type="radio" name="options" id="opcao04"> Vermelho
+                        </label>
+                    </div>
+                </fieldset>
+            
+                <!-- CAIXA DE TEXTO -->
+                <fieldset>
+                    <div class="campo">
+                        <br>
+                        <label>
+                            <p id="legenda-textarea">Fale sobre o que você gosta; músicas, livros, o que tem vontade de aprender, entre outras coisas.</p>
+                        </label>
+                        <!-- Row == número de linhas -->
+                        <textarea row="6" id="aboutyou" name="aboutyou"> Pode escrever aqui kek &#x1F60A</textarea>
+                    </div>
+                    <!-- BOTÃO DE CONCLUIR-->
+                    <button id="concluir" type="submit" onsubmit>Concluir</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- FOOTER... INFOS CONTATO -->
+        <footer>
+            <h3>Entre em contato: </h3>
+            <br>
+            <img src="icones/icone insta.png" alt="Ícone do Instagram"><a href="https://www.instagram.com/phtorresmo/" target="_blank" rel="next"> Instagram: @phtorresmo</a></li>
+            <img src="icones/icone-github.png" alt="Ícone do GitHub"><a href="https://github.com/phtorresmo" target="_blank" rel="next"> GitHub: /phtorresmo</a>
+        </footer>
+    </div>
+
+
+</body>
+</html>

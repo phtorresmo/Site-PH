@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #34aec4, #0f899e);
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f4e59c9;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 2px #14616e93;
+}
+
+#subtitulo {
+    font-size: 30px;
+    margin-top: 2em;
+    color: #0F4E59;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px #18768693;
+}
+
+footer {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.507);
+    text-align:center;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+    padding-right: 2em;
+}
+
+main {
+    text-align: center;
+}
+
+#navegacao {
+    padding-top: 10px;
+    font-size: 17px;
+    margin-left: auto;
+}
+
+#navegacao a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    color: black;
+    text-decoration: none;
+}
+
+#navegacao a:hover {
+    color: #b37543;
+    text-decoration: underline;
+}
+
+#explorer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#explorer button{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(24, 23, 23);
+    background-color: #f7ba49;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #12788A;
+    border: none;
+}
+
+#carrossel img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #12788a;;
+}
+
+/* REAÇÃO DOS BOTÕES AO PASSAR DO MOUSE */
+#concluir:hover, #explorer button:hover {
+    background-color: rgb(233, 230, 93);
+    box-shadow: inset 2px white;
+    text-shadow: none;
+}
+
+#concluir:focus, #explorer button:focus {
+    border: inset;
+}
