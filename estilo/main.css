@@ -98,12 +98,14 @@ main {
     font-size: 20px;
     font-weight: 600;
     color: rgb(24, 23, 23);
-    background-color: #f7ba49;
+    background-color: #D9896C;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     width: 150px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 2px 2px 2px #12788A;
     border: none;
 }
@@ -117,7 +119,7 @@ main {
 
 /* REAÇÃO DOS BOTÕES AO PASSAR DO MOUSE */
 #concluir:hover, #explorer button:hover {
-    background-color: rgb(233, 230, 93);
+    background-color:#F2DBAE;
     box-shadow: inset 2px white;
     text-shadow: none;
 }
