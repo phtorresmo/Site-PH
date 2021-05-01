@@ -4,17 +4,17 @@
 }
 
 #forms {
-    background-color: rgb(140, 208, 240);
+    background-color: #80A7FF;
     width: 700px;
     height: 430px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px #12788A;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.149);
     margin-left: auto;
     margin-right: auto;
 }
 
 fieldset {
-    color: #0F4E59;
+    color: #082d34;
     border: 0;
     margin-top: 20px;
 }
@@ -56,23 +56,30 @@ fieldset {
 textarea {
     margin-top: 15px;
     margin-left: 25%;
-    height: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    max-width: 350px;
+    min-width: 350px;
+    grid-row: auto;
 }
 
-#concluir {
+#concluir_Btn {
     width: 150px;
     height: 40px;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 600;
-    color: rgb(24, 23, 23);
-    background-color: #f7ba49;
+    color: white;
+    background-color: #0050FF;
     margin-top: 30px;
     margin-left: 40%;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px #12788A;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.265);
     border: none;
+}
 
+#concluir_Btn:hover {
+    background-color: #5185f7;
 }
 
 footer {
@@ -85,7 +92,7 @@ footer {
 }
 
 .campo input, .radio-buttons .campo .legenda-opcao, textarea {
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 #nome, #apelido, textarea, .legenda-opcao {
