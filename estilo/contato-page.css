@@ -19,7 +19,7 @@ fieldset {
     margin-top: 20px;
 }
 
-.name {
+#infoCampo {
     font-size: 19px;
     margin-left: 20px;
     margin-right: 20px;
@@ -28,16 +28,6 @@ fieldset {
     display: flex;
     flex-direction: row;
 }
-
-.radio-buttons .campo{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-top: 1em;
-    margin-bottom: 20px;
-}
-
 
 .legenda-opcao {
     margin-top: 3px;
@@ -60,7 +50,6 @@ textarea {
     min-height: 80px;
     max-width: 350px;
     min-width: 350px;
-    grid-row: auto;
 }
 
 #concluir_Btn {
@@ -86,25 +75,20 @@ footer {
     margin-top: 70px;
 }
 
-#nome, #apelido {
-    width: 200px;
-    height: 22px;
+#nome, #assunto, #email {
+    width: 250px;
+    height: 25px;
 }
 
-.campo input, .radio-buttons .campo .legenda-opcao, textarea {
+.campo input, textarea {
     border-radius: 3px;
 }
 
-#nome, #apelido, textarea, .legenda-opcao {
+#nome, #assunto, #email, textarea {
     box-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.2);
     border: none;
 }
 
-#nome:focus, #apelido:focus, .campo textarea:focus {
+#nome:focus, #assunto:focus, #email:focus, .campo textarea:focus {
     background-color: rgb(221, 252, 255);
-
-}
-
-#aboutyou {
-    width: 26em;
 }
